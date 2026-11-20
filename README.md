@@ -1,3 +1,5 @@
+> **Estado atual do projeto:** esta versão é um protótipo inicial. A sobreposição oferece botões de toque básicos; analógicos contínuos, multitouch, editor de layout, arrastar controles e ajustes de tamanho/transparência ainda não estão implementados. A compilação gera um APK de teste, não uma versão final.
+
 # E é isso — Controle Xbox Virtual para Roblox (Android / Kotlin)
 
 Aplicativo Android nativo (Kotlin + XML) que desenha um **controle de Xbox virtual flutuante** por cima do jogo Roblox, usando janelas `TYPE_APPLICATION_OVERLAY` + `AccessibilityService` para executar **toques reais** na tela do jogo.
