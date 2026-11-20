@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E é isso</string>
+    <string name="accessibility_service_label">E é isso - Toque Virtual</string>
+    <string name="accessibility_service_description">
+        Serviço de acessibilidade que simula toques e deslizes reais na tela do Roblox a partir do controle virtual Xbox flutuante. Necessário para que os botões enviados pelo controle sejam reproduzidos como gestos físicos dentro do jogo.
+    </string>
+
+    <!-- MainActivity -->
+    <string name="main_title">E é isso</string>
+    <string name="main_subtitle">Controle Xbox Virtual • Roblox Overlay</string>
+    <string name="perm_overlay_title">Permissão de Sobreposição</string>
+    <string name="perm_overlay_desc">Permite desenhar o controle flutuante por cima do Roblox.</string>
+    <string name="perm_accessibility_title">Serviço de Acessibilidade</string>
+    <string name="perm_accessibility_desc">Executa os toques reais dentro do jogo (multi-touch).</string>
+    <string name="status_granted">Concedida</string>
+    <string name="status_pending">Pendente</string>
+    <string name="btn_grant_overlay">Conceder Sobreposição</string>
+    <string name="btn_grant_accessibility">Ativar Acessibilidade</string>
+    <string name="btn_overlay_on">SOBREPOR CONTROLE</string>
+    <string name="btn_overlay_off">REMOVER CONTROLE</string>
+    <string name="btn_layout_editor">PERSONALIZAR LAYOUT</string>
+
+    <!-- LayoutEditor -->
+    <string name="editor_title">Editor de Layout</string>
+    <string name="editor_hint">Arraste os botões e os alvos vermelhos para a posição desejada. Os alvos indicam onde o toque será enviado dentro do Roblox.</string>
+    <string name="editor_size">Tamanho</string>
+    <string name="editor_alpha">Transparência</string>
+    <string name="editor_save">Salvar Layout</string>
+    <string name="editor_reset">Resetar</string>
+    <string name="editor_select">Selecionar botão:</string>
+    <string name="editor_target_hint">Alvo de Toque</string>
+
+    <!-- Overlay -->
+    <string name="overlay_channel_name">Controle Xbox Ativo</string>
+    <string name="overlay_channel_desc">Notificação persistente do controle flutuante.</string>
+    <string name="overlay_notification_title">E é isso • Controle ativo</string>
+    <string name="overlay_notification_text">Toque para abrir o app. O controle está sobreposto ao Roblox.</string>
+</resources>

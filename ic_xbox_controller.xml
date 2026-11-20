@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícone estilizado de controle Xbox: corpo escuro com duas alças,
+     dois analógicos e o botão Xbox verde central. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Corpo do controle -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:strokeColor="#107C10"
+        android:strokeWidth="2.5"
+        android:pathData="M30,38
+            C18,38 8,50 8,68
+            C8,86 16,98 28,98
+            C36,98 42,92 48,86
+            L72,86
+            C78,92 84,98 92,98
+            C104,98 112,86 112,68
+            C112,50 102,38 90,38
+            C82,38 76,42 70,46
+            L50,46
+            C44,42 38,38 30,38 Z" />
+    <!-- Analógico esquerdo -->
+    <path
+        android:fillColor="#0A0A0A"
+        android:strokeColor="#107C10"
+        android:strokeWidth="1.5"
+        android:pathData="M34,58 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+    <!-- Analógico direito -->
+    <path
+        android:fillColor="#0A0A0A"
+        android:strokeColor="#107C10"
+        android:strokeWidth="1.5"
+        android:pathData="M86,58 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+    <!-- Botão Xbox central -->
+    <path
+        android:fillColor="#107C10"
+        android:pathData="M60,62 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <!-- "X" estilizado no botão -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,59 L63,65 M63,59 L57,65"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5" />
+</vector>
